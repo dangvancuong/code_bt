@@ -1,0 +1,85 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #000;
+	
+}
+.logo{
+	width: 1000px;
+	margin: auto;
+	margin-top: 10px;
+}
+.logo>img{
+	width: 1000px;
+}
+.menu{
+	width: 100%;
+	text-align: center;
+	background: #ccc;
+}
+.menu>ul{
+	list-style: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.menu>ul>li{
+	color: #fff;
+	display: inline;
+	padding: 20px 30px 10px 0px;
+	font-size: 24px;
+}
+ 
+.content{
+	width: 960px;
+	background: #fff;
+	margin: auto;
+	padding:30px; 
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.content>h1{
+	text-align: center;
+	color: #ccc;
+}
+.content>h2, h3,h4{
+	padding: 20px;
+	color: #ccc;
+}
+.content>p{
+	padding: 20px;
+}
+.content>.img1{
+	text-align: center;
+
+}
+.content>.img1>img{
+	padding: 20px;
+}
+.content>.img2{
+	text-align: center;
+
+}
+.content>.img2>img{
+	padding: 0px;
+}
+.content>.img3{
+	text-align: center;
+
+}
+.content>.img3>img{
+	padding: 5px;
+}
+.footer{
+	width: 100%;
+	background: #ccc; 
+}
+.footer>img{
+	margin-left: 36%;
+}
+.footer>p{
+	padding: 10px;
+	text-align: center;
+	padding: 10px;
+}
