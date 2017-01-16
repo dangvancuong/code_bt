@@ -37,11 +37,11 @@
 			 <?php foreach ($person as $key => $person) {  ?>
 
 			<tr>
-				<td><?php echo $person['id'][$count]; ?></td>
-				<td><?php echo $person['ten'][$count]; ?> </td>
-				<td><?php echo $person['ngaySinh'][$count]; ?></td> 
-				<td><?php echo $person['diaChi'][$count]; ?></td> 
-				<td><?php echo $person['soThich'][$count]; ?></td> 
+				<td><?php echo $person['id'] ; ?></td>
+				<td><?php echo $person['ten'] ; ?> </td>
+				<td><?php echo $person['ngaySinh'] ; ?></td> 
+				<td><?php echo $person['diaChi'] ; ?></td> 
+				<td><?php echo $person['soThich'] ; ?></td> 
 			</tr> 
 			<?php  $count++; }?>
 		</table>
